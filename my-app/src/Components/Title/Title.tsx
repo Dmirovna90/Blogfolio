@@ -4,7 +4,6 @@ interface IProps {
     children?: React.ReactNode;
 }
 const Title = ({title, children}: IProps) => {
-    console.log(children)
     if (title === undefined) {
         return children
     }
