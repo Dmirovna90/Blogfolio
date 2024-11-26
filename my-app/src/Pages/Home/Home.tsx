@@ -10,6 +10,7 @@ const Home = () => {
             {/* <TextArea title = {'Your Post'} placeholder = {'Add your text'}/> */}
             {/* <Tabs /> */}
             {/* <Posts /> */}
+            
 
         </>
     )

@@ -45,6 +45,11 @@
     cursor: pointer;
 
 }
-.theme {
-    // color: aqua;
+.buttonTheme:focus svg {
+    stroke: #313037;
+}
+.userPoint {
+    text-decoration: none;
+    pointer-events: none;
+    color: #fff;
 }
