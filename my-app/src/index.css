@@ -21,9 +21,9 @@ body {
 
 .light-theme {
   background-color: white;
-  color: black
+  color: black;
 }
 .dark-theme {
-  background-color: black;
+  background-color: #313037;
   color: white;
 }

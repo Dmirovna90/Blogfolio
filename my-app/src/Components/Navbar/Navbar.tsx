@@ -3,10 +3,10 @@ import {ReactComponent as Dark} from '../../assets/dark.svg';
 import { Link, NavLink } from "react-router-dom";
 import style from './Navbar.module.scss';
 import User from "../User/User";
-import Title from "../Title/Title";
 import { useDispatch, useSelector } from 'react-redux';
 import { switchTheme } from '../../store/themeSlice';
 import {toggleActive} from '../../store/activeSlice';
+import InputOutput from '../InputOutput/InputOutput';
 
 const Navbar = () => {
     const {isActive} = useSelector((state) => state.active);
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <button className = {style.buttonTheme} onClick={() => dispatch(switchTheme("light"))}><Light /> </button>
                 <button className = {style.buttonTheme} onClick={() => dispatch(switchTheme("dark"))}> <Dark /></button>
                 </div>
-                <Title title = {"Sign In"}/>
+                <InputOutput title = {"Sign In"}/>
             </div>
         </div>
     )

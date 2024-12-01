@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
+import Footer from "../../Components/Footer/Footer";
 
 const Layout = () => {
     const {theme} = useSelector((state) => state.theme);
@@ -15,7 +16,7 @@ const Layout = () => {
             <Header />
             <Navbar />
             <Outlet />
-            <div>Footer</div>
+            <Footer />
         </>
     )
 }
