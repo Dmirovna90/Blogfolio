@@ -16,8 +16,8 @@ const Navbar = () => {
             <div className = {style.menuBox}>
                 <NavLink to = '/user' className = {style.userPoint} onClick={() => dispatch(toggleActive())}><User userName= {'Artem Malkin'}/></NavLink>
                 <NavLink to = '/' className = {style.menuPoint} onClick={() => dispatch(toggleActive())}>Home</NavLink>
-                <NavLink to = '/add-post' className = {style.menuPoint} onClick={() => dispatch(toggleActive())}>Add Post</NavLink>
-                <NavLink to = '/posts' className = {style.menuPoint} onClick={() => dispatch(toggleActive())}>Posts</NavLink>
+                {/* <NavLink to = '/add-post' className = {style.menuPoint} onClick={() => dispatch(toggleActive())}>Add Post</NavLink> */}
+                <NavLink to = '/posts' className = {style.menuPoint} onClick={() => dispatch(toggleActive())}>All Posts</NavLink>
 
             </div>
             <div className = {style.menuBox}>

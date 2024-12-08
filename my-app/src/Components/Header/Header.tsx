@@ -8,8 +8,11 @@ const Header = () => {
     return (
         <div className = {style.header}>
             <BurgerMenu />
-            <Search/>
-            <NavLink to = '/user' className = {style.userPoint} onClick={() => console.log('click')}><User userName= {'Artem Malkin'}/></NavLink>
+            <div className = {style.searchUserWrap}>
+                <Search/>
+                <NavLink to = '/user' className = {style.userPoint} onClick={() => console.log('click')}><User userName= {'Artem Malkin'}/></NavLink>
+            </div>
+           
         </div>
     )
 }

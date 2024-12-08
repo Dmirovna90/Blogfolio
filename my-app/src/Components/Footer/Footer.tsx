@@ -2,7 +2,7 @@ import style from './Footer.module.scss';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className = {style.footer}>
             <div className = {style.footerWrap}>
                 <p className = {style.footerText}>
                     ©2024 Blogfolio

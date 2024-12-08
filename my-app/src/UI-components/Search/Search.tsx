@@ -5,6 +5,7 @@ import SearchInput from '../SearchInput/SearchInput';
 
 const Search = () => {
     return <button className = {style.searchButton} onClick={() => console.log('click')}>
+        <SearchImg/>
     </button>
 }
 export default Search
