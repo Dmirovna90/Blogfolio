@@ -8,8 +8,8 @@ const Title = ({title, children}: IProps) => {
         return children
     }
     return (
-        <div className = {style.title}>
-            <p>{title}</p>
+        <div>
+            <p className = {style.title}>{title}</p>
         </div>
     )
 }

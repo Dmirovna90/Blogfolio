@@ -1,4 +1,6 @@
 import Button from "../Button/Button";
+import Template from "../Template/Template";
+import Title from "../Title/Title";
 import style from "./AddPost.module.scss";
 
 interface IProps {
@@ -11,11 +13,13 @@ const AddPost = ({
 ) => {
     return (
         <>
-            <div className = {style.addpost}>
+            {/* <div className = {style.addpost}>
                 <Button buttonType = {'primary'} isDisabled = {isDisabled} >Primary</Button>
                 <Button buttonType = {'secondary'} isDisabled = {isDisabled} >Secondary</Button>
                 <Button buttonType = {'secondary2'} isDisabled = {isDisabled} >Secondary 2</Button>
-            </div>
+            </div> */}
+
+            {/* <Template /> */}
         </>
     )
 }
